@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalDrive</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/media.css"> -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="./index.html" class="header__logo">RoyalDrive</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="./index.html" class="header__link">about us</a></li>
+                    <li><a href="#" class="header__link">benefits</a></li>
+                    <li><a href="#" class="header__link">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header-end -->
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Section 1 - welcome  -->
+        <section class="welcome">
+            <div class="container welcome__container">
+                <div class="welcome__text-wrapper">
+                    <h1 class="welcome__title">RoyalDrive – Where Luxury Meets the Road</h1>
+                    <h2 class="welcome__mini-title">Drive Like Royalty</h2>
+                    <div class="welcome__row-wrapper">
+                        <img src="./img/icons/checkbox.svg" alt="Checkbox">
+                        <p class="welcome__desc"><span class="welcome__desc-number">$10 000</span> average rental
+                            receipt</p>
+                    </div>
+                    <div class="welcome__row-wrapper">
+                        <img src="./img/icons/checkbox.svg" alt="Checkbox">
+                        <p class="welcome__desc"><span class="welcome__desc-number">30%</span> repeat customers</p>
+                    </div>
+                    <div class="welcome__row-wrapper">
+                        <img src="./img/icons/checkbox.svg" alt="Checkbox">
+                        <p class="welcome__desc"><span class="welcome__desc-number">17%</span> annual growth</p>
+                    </div>
+                    <button href="#" class="btn welcome__btn">Order</button>
+                </div>
+                <img src="./img/1.png" alt="Cars" class="welcome__img">
+            </div>
+        </section>
+        <!-- Section 2 - benefits  -->
+        <section class="benefits">
+            <div class="container benefits__container">
+                <div class="benefits__row">
+                    <img src="./img/2.png" alt="Cars" class="benefits__row-img-one">
+                    <div class="benefits__text-wrapper">
+                        <div class="benefits__desc-row-first">
+                            <img src="./img/icons/point-of-list.svg" alt="List item" class="benefits__svg">
+                            <p class="benefits__text">Only premium models with impeccable service history. We rent
+                                excellence, not just cars</p>
+                        </div>
+                        <div class="benefits__desc-row">
+                            <img src="./img/icons/point-of-list.svg" alt="List item" class="benefits__svg">
+                            <p class="benefits__text">Your dedicated manager handles everything – from vehicle selection
+                                to VIP requests</p>
+                        </div>
+                        <div class="benefits__desc-row">
+                            <img src="./img/icons/point-of-list.svg" alt="List item" class="benefits__svg">
+                            <p class="benefits__text">Chosen by discerning clients who value reliability and discretion
+                            </p>
+                        </div>
+                        <div class="benefits__desc-row-last">
+                            <img src="./img/icons/point-of-list.svg" alt="List item" class="benefits__svg">
+                            <p class="benefits__text">RoyalDrive clients receive invitations to exclusive auto
+                                premieres, private test drives of new models, and partner events. More than a rental — a
+                                privilege club</p>
+                        </div>
+                        <button href="#" class="btn benefits__btn">Order</button>
+                    </div>
+                    <img src="./img/3.jpg" alt="Car" class="benefits__row-img-two">
+                </div>
+            </div>
+        </section>
+        <!-- Section 3 - input  -->
+        <section class="input">
+            <div class="container input__container">
+                <div class="input__form-wrapper">
+                    <div class="input__left-column">
+                        <p class="input__text">Send your request to rent a car or if you have any questions</p>
+                        <form action="/submit-form" method="POST">
+                            <div class="input-box">
+                                <div class="input-name">
+                                    <input type="text" id="name" name="name" placeholder="Name" required>
+                                </div>
+
+                                <div class="input-email">
+                                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                                </div>
+
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="agree" name="agree" required>
+                                    <label for="agree">I accept Privacy policy</label>
+                                </div>
+
+                                <button type="submit" class="btn input__btn">Submit Form</button>
+                            </div>
+                        </form>
+                    </div>
+                    <img src="./img/4.png" alt="Dealer" class="input__img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main-end -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__first-row">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="./index.html" class="footer__link">about us</a></li>
+                        <li><a href="#" class="footer__link">benefits</a></li>
+                        <li><a href="#" class="footer__link">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__last-row">
+                <div class="footer__first-column">
+                    <a href="./index.html" class="header__logo">RoyalDrive</a>
+                    <p class="footer__copyrights">© 2024, Copyright.</p>
+                </div>
+                <div class="footer__center-column">
+                    <div class="footer__row-icons">
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/insta.svg" alt="Instagram" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/tik-tok.svg" alt="Tik-tok" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/in.svg" alt="In" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/facebook.svg" alt="Facebook" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/telegram.svg" alt="Telegram" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="./img/icons/youtube.svg" alt="Youtube" class="footer__icon">
+                        </a>
+                    </div>
+                    <p class="footer__text">Privacy policy</p>
+                </div>
+                <div class="footer__last-column">
+                    <button href="#" class="btn footer__btn">Order</button>
+                    <p class="footer__text">Terms of Use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer-end -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
