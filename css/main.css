@@ -47,6 +47,7 @@ a:hover {
 }
 
 .container {
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -169,7 +170,6 @@ a:hover {
 } */
 
 .benefits__container {
-    width: 100%;
     padding-top: 99px;
     padding-bottom: 100px;
     background-color: #282829;
@@ -247,7 +247,6 @@ a:hover {
 
 /* Section 3 - input */
 .input__container {
-    max-width: 100%;
     padding-bottom: 100px;
     background-color: #282829;
 }
