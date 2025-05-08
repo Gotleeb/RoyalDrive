@@ -181,13 +181,11 @@ a:hover {
 }
 
 .benefits__row-img-one {
-    max-width: 615px;
-    height: 724px;
+    max-width: 600px;
 }
 
 .benefits__row-img-two {
-    max-width: 585px;
-    height: 724px;
+    max-width: 580px;
 }
 
 .benefits__text-wrapper {
