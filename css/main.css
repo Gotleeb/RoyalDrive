@@ -181,12 +181,12 @@ a:hover {
 }
 
 .benefits__row-img-one {
-    width: 615px;
+    max-width: 615px;
     height: 724px;
 }
 
 .benefits__row-img-two {
-    width: 585px;
+    max-width: 585px;
     height: 724px;
 }
 
@@ -331,7 +331,7 @@ a:hover {
 }
 
 .input__img {
-    max-height: 650px;
+    height: 650px;
 }
 
 /* Footer */

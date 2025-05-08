@@ -1,7 +1,169 @@
-@media (max-width: 1080px) {
+@media (max-width: 1600px) {
+    /* Header */
+    .header__container {
+        padding-left: 100px;
+        gap: 100px;
+    }
 
+    .header__logo {
+        font-size: 28px;
+    }
+
+    .header__list {
+        gap: 25px;
+    }
+
+    /* Main */
+    /* Section 1 - welcome */
+    .welcome__text-wrapper {
+        padding-left: 100px;
+        max-width: 600px;
+    }
+
+    .welcome__title {
+        font-size: 70px;
+    }
+
+    .welcome__mini-title {
+        font-size: 30px;
+    }
+
+    .welcome__desc {
+        font-size: 22px;
+    }
+
+    .welcome__desc-number {
+        font-size: 36px;
+    }
+
+    .welcome__btn {
+        margin-bottom: 30px;
+    }
+
+    .welcome__img {
+        max-width: 762px;
+    }
+
+    /* Section 2 - benefits */
+    .benefits__container {
+        max-width: 1600px;
+    }
+
+    .benefits__row {
+        gap: 30px;
+    }
+
+    .benefits__row-img-one {
+        max-width: 480px;
+        height: 600px;
+    }
+
+    .benefits__row-img-two {
+        max-width: 450px;
+        height: 600px;
+    }
+
+    .benefits__text-wrapper {
+        width: 500px;
+    }
+
+    .benefits__desc-row {
+        gap: 5px;
+    }
+
+    .benefits__desc-row-last {
+        gap: 5px;
+    }
+
+    .benefits__text {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
+    .benefits__btn {
+        padding: 32px 210px;
+    }
+
+    /* Section 3 - input */
+    .input__container {
+        max-width: 1600px;
+    }
+
+    .input__form-wrapper {
+        width: 1500px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* Footer */
+    .footer__list {
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1500px) {
+    /* Section 2 - benefits */
+    .benefits__container {
+        max-width: 1500px;
+    }
 
+    .benefits__row-img-one {
+        max-width: 450px;
+        height: 550px;
+    }
+
+    .benefits__row-img-two {
+        max-width: 420px;
+        height: 550px;
+    }
+
+    /* Section 3 - input */
+    .input__container {
+        max-width: 1500px;
+    }
+
+    .input__form-wrapper {
+        width: 1300px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1420px) {
+    /* Header */
+    .header__container {
+        padding-left: 100px;
+        gap: 50px;
+    }
+
+    .header__logo {
+        font-size: 25px;
+    }
+
+    .header__list {
+        gap: 22px;
+    }
+    /* Section 2 - benefits */
+    .benefits__container {
+        max-width: 1400px;
+    }
+
+    .benefits__row-img-one {
+        max-width: 430px;
+        height: 520px;
+    }
+
+    .benefits__row-img-two {
+        max-width: 400px;
+        height: 520px;
+    }
+
+    .benefits__text {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .benefits__btn {
+        padding: 32px 210px;
+    }
 }
