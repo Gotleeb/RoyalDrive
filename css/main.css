@@ -22,13 +22,17 @@ a:hover {
     opacity: 0.5;
 }
 
+.container {
+    max-width: 1600px;
+    width: 100%;
 
+    margin: 0 auto;
+}
 
 /* Header */
 .header {
     width: 100%;
     padding-top: 44px;
-    padding-left: 162px;
     padding-bottom: 44px;
 
     position: fixed;
@@ -44,11 +48,6 @@ a:hover {
 
 .header.scrolled {
     background-color: rgba(23, 23, 23, 0.9);
-}
-
-.container {
-    max-width: 1920px;
-    margin: 0 auto;
 }
 
 .header__container {
@@ -81,7 +80,6 @@ a:hover {
 /* Main */
 /* Section 1 - welcome */
 .welcome__container {
-    padding-left: 162px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -89,8 +87,9 @@ a:hover {
 
 .welcome__text-wrapper {
     padding-top: 158px;
-    width: 637px;
+    max-width: 637px;
     text-align: left;
+    z-index: 1;
 }
 
 .welcome__title {
@@ -158,18 +157,17 @@ a:hover {
 
 .welcome__img {
     max-width: 763px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
 }
 
 /* Section 2 - benefits */
-
-/* .benefits {
-    width: 100%;
-    padding-top: 99px;
-    padding-bottom: 100px;
-    background-color: #282829;
-} */
-
 .benefits__container {
+    max-width: 1920px;
+    width: 100%;
+
     padding-top: 99px;
     padding-bottom: 100px;
     background-color: #282829;
@@ -247,6 +245,8 @@ a:hover {
 
 /* Section 3 - input */
 .input__container {
+    max-width: 1920px;
+    width: 100%;
     padding-bottom: 100px;
     background-color: #282829;
 }
@@ -335,6 +335,11 @@ a:hover {
 }
 
 /* Footer */
+.footer__container {
+    max-width: 1920px;
+    width: 100%;
+}
+
 .footer__first-row {
     padding: 40px 0;
     border-top: 2px solid #d5c9be;
